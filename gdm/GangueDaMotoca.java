@@ -22,7 +22,7 @@ public class GangueDaMotoca extends AdvancedRobot {
     // Vira o robô em direção ao inimigo
     setTurnRight(e.getBearing());
     // Atira sempre que ta olhando pra um inimigo
-    setFire(2);
+    setFire(1);
     // E anda pra frente
     setAhead(100);
     // Inverte a direção da arma a cada turno
